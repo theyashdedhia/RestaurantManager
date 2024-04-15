@@ -58,7 +58,7 @@ The application will start, and you can interact with the main menu by entering 
 
 ## Running Test Cases
 
-The application includes test cases for the `GenerateReport`, `Manager`, and `UpdatePrice` classes. To run these test cases, follow these steps:
+The application includes test cases for the `GenerateReport`, `Manager`, `Customer` and `UpdatePrice` classes. To run these test cases, follow these steps:
 
 1. Compile the test files using the following command in the terminal or command prompt:
 
@@ -72,6 +72,7 @@ javac *Test.java
 java GenerateReportTest
 java ManagerTest
 java UpdatePriceTest
+java CustomerTest
 ```
 
 The test cases will execute, and the results will be displayed in the console.
