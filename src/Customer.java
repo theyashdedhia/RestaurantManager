@@ -103,7 +103,7 @@ class Customer extends Menu{
 		float amountRecieved;
 		while(true) {
 			System.out.printf("Total Amount for the Order: %.2f \n", orderDetails.totalAmount);//Shows customer how much their meal will cost
-			System.out.println("Enter amount you wish to pay: ");
+			System.out.print("Enter amount you wish to pay: ");
 			Scanner input = new Scanner(System.in);
 			String amount = input.next();//User Input
 			try {
@@ -119,7 +119,7 @@ class Customer extends Menu{
 			}
 		}
 		//Displayed to customer on paying
-		System.out.printf("You will recieve $%.2f", amountRecieved - orderDetails.totalAmount);
+		System.out.printf("\nYou will recieve $%.2f", amountRecieved - orderDetails.totalAmount);
 		System.out.printf("\nYour food will be ready in %.0f minutes\n", orderDetails.waitTime);
 //	Order Complete!
 	}

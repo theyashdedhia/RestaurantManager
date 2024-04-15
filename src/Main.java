@@ -9,7 +9,7 @@ public class Main {
 
 	static Scanner input;
 	public static void main(String[] args) {//Code Entry Point
-		System.out.println("<---Welcome to Burrito King!--->");
+		System.out.println("\n\n<---Welcome to Burrito King!--->");
 		
 		Manager manager = new Manager();//Initializing manager class
 		
