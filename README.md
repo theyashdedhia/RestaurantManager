@@ -76,38 +76,3 @@ java CustomerTest
 ```
 
 The test cases will execute, and the results will be displayed in the console.
-
-## Flow Chart
-
-Here's a simplified flow chart representing the application's flow:
-
-```
-                  +----------+
-                  |   Start  |
-                  +----------+
-                       |
-                 +-----+-----+
-                 |  Main Menu|
-                 +-+------+--+
-                   |      |
-         +----------+      +----------+
-         |                            |
-  +------v------+           +--------v--------+
-  | Order Items |           | Update Prices   |
-  +------+------+           +--------+--------+
-         |                            |
-+--------+--------+          +--------+--------+
-| Process Order   |          | Select Item     |
-| Display Receipt |          | Enter New Price |
-+------------------+          +------------------+
-                                     |
-                             +--------v--------+
-                             | Generate Report |
-                             +------------------+
-                                     |
-                              +------+------+
-                              |    Exit     |
-                              +-------------+
-```
-
-In the flow chart, the application starts by displaying the main menu. Users can choose to order items, update prices, or generate a sales report. If the user selects "Order Items," the application processes the order and displays the receipt. If the user selects "Update Prices," they can choose an item and enter a new price. If the user selects "Generate Report," the application generates a sales report based on the live status of the restaurant. The user can exit the application by selecting the "Exit" option from the main menu.
