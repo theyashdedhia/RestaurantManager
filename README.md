@@ -45,7 +45,7 @@ To run the Burrito King Application, follow these steps:
 1. Compile the Java files using the following command in the terminal or command prompt:
 
 ```
-javac *.java
+javac Objects.java Customer.java Manager.java Main.java
 ```
 
 2. Run the application with the following command:
@@ -58,21 +58,12 @@ The application will start, and you can interact with the main menu by entering 
 
 ## Running Test Cases
 
-The application includes test cases for the `GenerateReport`, `Manager`, `Customer` and `UpdatePrice` classes. To run these test cases, follow these steps:
+The application includes test cases.
 
-1. Compile the test files using the following command in the terminal or command prompt:
-
-```
-javac *Test.java
-```
-
-2. Run the test cases with the following commands:
+Run the test cases with the following commands:
 
 ```
-java GenerateReportTest
-java ManagerTest
-java UpdatePriceTest
-java CustomerTest
+java -cp .:junit-4.XX.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore GenerateReportTest ManagerTest UpdatePriceTest
 ```
 
 The test cases will execute, and the results will be displayed in the console.
